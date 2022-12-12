@@ -1,0 +1,17 @@
+{
+  "name": "steps",
+  "version": "1.0.0",
+  "description": "This package is steps track in vuejs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "steps"
+  ],
+  "author": "GhaziRiyadh",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.45"
+  }
+}
