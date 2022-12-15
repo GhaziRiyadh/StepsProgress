@@ -7,11 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "steps"
+    "steps",
+    "vuejs",
+    "vue",
+    "progress",
+    "track",
+    "steps track",
+    "steps progress",
+    "steps vuejs",
+    "steps vue",
+    "steps progress vuejs",
+    "steps progress vue"
   ],
   "author": "GhaziRiyadh",
-  "license": "ISC",
-  "dependencies": {
-    "vue": "^3.2.45"
-  }
+  "license": "ISC"
 }
