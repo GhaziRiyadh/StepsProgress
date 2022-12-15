@@ -25,7 +25,7 @@ npm install steps-process
       </template>
         <!-- use this for not selected element -->
       <template #not-selected>
-        <span>O</span>
+        <span>N</span>
       </template>
         <!-- use this for current -->
       <template #current>
