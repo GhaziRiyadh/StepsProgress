@@ -16,6 +16,7 @@ npm install steps-process
 
 ```html
 <template>
+<<<<<<< HEAD
   <div class='container'>
     <StepsProgress :current="2" cercleActiveColor="#42b883" progressHeight="8px" cercleHeight="30px"
           otherCercleColor="#656cff" cercleNotActiveColor="#646cff" cercleWidth="30px" backgroundHeight="10px" :end="5"
@@ -34,6 +35,24 @@ npm install steps-process
         </template>
     </StepsProgress>
   </div>
+=======
+ <StepsProgress :current="2" cercleActiveColor="#42b883" progressHeight="8px" cercleHeight="30px"
+      otherCercleColor="#656cff" cercleNotActiveColor="#646cff" cercleWidth="30px" backgroundHeight="10px" :end="5"
+      backgroundColor="#42b883">
+        <!-- use this for selected element -->
+      <template #selected>
+        <span>S</span>
+      </template>
+        <!-- use this for not selected element -->
+      <template #not-selected>
+        <span>N</span>
+      </template>
+        <!-- use this for current -->
+      <template #current>
+        <span>C</span>
+      </template>
+</StepsProgress>
+>>>>>>> f6c719a50a455a9a0761dded5b7df57ff15cca6d
 </template>
 ```
 
