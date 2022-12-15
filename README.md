@@ -10,7 +10,7 @@ npm install steps-process
 
 ## Usage
 
-> Wor
+> ⚠ You may have to add container for this package cuse it's depend on parent width.
 
 ### VueJs
 
@@ -47,5 +47,5 @@ export default{
 
 ## Example
 
-<!-- video-->
-[![Example](https://img.youtube.com/vi/1Q2Q3Q4Q5Q6/0.jpg)](https://www.youtube.com/watch?v=1Q2Q3Q4Q5Q6)
+<!-- gif-->
+![Exampls](./Files/videos/exampels.gif)
