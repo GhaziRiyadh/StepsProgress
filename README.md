@@ -10,7 +10,7 @@ npm install steps-process
 
 ## Usage
 
-> ⚠ You may have to add a container for that packet because it depends on the parent width.
+> ⚠ You may have to add a container for this package cause it's depends on the parent width.
 
 ### VueJs
 
