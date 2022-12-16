@@ -5,7 +5,7 @@ Steps Process is a simple library to create a process with steps.
 ## Installation
 
 ```bash
-npm install steps-process
+npm i steps-progress
 ```
 
 ## Usage
