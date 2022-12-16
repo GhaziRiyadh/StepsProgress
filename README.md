@@ -61,34 +61,34 @@ export default{
 ## Props
 
 ```current:Number```  
-> use for set current counter number.```2```
+> Use for set current counter number.```2```
 
  ```end:Number```
-> use for the end point number.like ```2```
+> Use for the end point number.like ```2```
 
  ```cercleActiveColor:String```
-> use for selected cercle Color. most have value and unit like ```'#42b883'```
+> Use for selected cercle Color. most have value and unit like ```'#42b883'```
 
  ```otherCercleColor:String```
-> use for current cercle Color. most have value and unit like ```'#42b883'```
+> Use for current cercle Color. most have value and unit like ```'#42b883'```
 
  ```cercleNotActiveColor:String```
-> use for not selected cercle Color. most have value and unit like ```'#42b883'```
+> Use for not selected cercle Color. most have value and unit like ```'#42b883'```
 
  ```backgroundColor:String```
-> use for progress background line Color. most have value and unit like ```'#42b883'```
+> Use for progress background line Color. most have value and unit like ```'#42b883'```
 
  ```progressColor:String```
-> use for progress line Color. most have value and unit like ```'#42b883'```
+> Use for progress line Color. most have value and unit like ```'#42b883'```
 
  ```backgroundHeight:String```
-> use progress line height. most have value and unit like ```'8px'```
+> Use for progress line height. most have value and unit like ```'8px'```
 
  ```cercleHeight:String```
-> use cercle height. most have value and unit like ```'20px'```
+> Use for cercle height. most have value and unit like ```'20px'```
 
  ```cercleWidth:String```
-> use cercle width. most have value and unit like ```'20px'```
+> Use for cercle width. most have value and unit like ```'20px'```
 
 ## Example
 
