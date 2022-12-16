@@ -11,11 +11,11 @@
                         class="center-item">
                         <span>S</span>
                     </slot>
-                    <slot name="not-selected" class="center-item" :style="'background-color:' + otherCercleColor"
+                    <slot name="not-selected" class="center-item" :style="'background-color:' + cercleNotActiveColor"
                         v-else-if="current + 1 <= item">
                         <span v-text="item"></span>
                     </slot>
-                    <slot name="current" class="center-item" :style="'background-color:' + cercleNotActiveColor" v-else>
+                    <slot name="current" class="center-item" :style="'background-color:' + otherCercleColor" v-else>
                         <span>C</span>
                     </slot>
                 </span>
