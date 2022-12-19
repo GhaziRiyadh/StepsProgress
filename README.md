@@ -99,3 +99,5 @@ export default defineConfig({
   ...
 })
 ```
+
+> [solotion in stackoverflow.com](https://stackoverflow.com/questions/72403717/using-vue-slots-in-library-gives-currentrenderinginstance-is-null)
