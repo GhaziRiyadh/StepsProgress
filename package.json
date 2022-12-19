@@ -1,8 +1,8 @@
 {
   "name": "steps-progress",
-  "version": "1.2.0",
+  "version": "1.1.4",
   "description": "This package is steps track in vuejs",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

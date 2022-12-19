@@ -72,3 +72,30 @@ export default{
 
 <!-- gif-->
 ![Exampls](./Files/videos/exampels.gif)
+
+## Issue
+
+### Error
+
+```Unhandled error during execution of render function error```
+
+### Solosion
+
+> If you use vite you can add this code for solotion to vite.config.js
+
+```js
+import path from 'path'
+...
+
+export default defineConfig({
+  plugins: [vue()],
+  ...
+  resolve: {
+    alias: {
+      vue: path.resolve("./node_modules/vue"),
+      ...
+    },
+  }
+  ...
+})
+```

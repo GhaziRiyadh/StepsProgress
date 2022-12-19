@@ -23,10 +23,10 @@
 </template>
 <script>
 export default {
-    name: 'app',
+    name: 'StepsProgress',
     props: {
         current: { type: Number, default: 1 },
-        end: { type: Number, default: 1 },
+        end: { type: Number, default: 5 },
         progressColor: { type: String, default: '#fff' },
         backgroundColor: { type: String, default: '#eee' },
         height: { type: String, default: '6px' },
