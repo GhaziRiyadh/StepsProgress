@@ -5,7 +5,7 @@
             </div>
             <div class="circle-container">
                 <span v-for="item in end" :key="item"
-                    :style="'height:' + height + ';width:' + height + ';background-color:' + backgroundColor"
+                    :style="'height:' + height + ';width:' + height + ';background-color:' + backgroundColor+';border-radius:'+circleRadius"
                     class="circle">
                     <slot name="selected" v-if="current > item" class="center-item">
                         <span>S</span>
@@ -30,6 +30,7 @@ export default {
         progressColor: { type: String, default: '#fff' },
         backgroundColor: { type: String, default: '#eee' },
         height: { type: String, default: '6px' },
+        circleRadius:{type:String,default:'9999px;'}
     },
     methods: {
         getGreenLineWidth() {
@@ -81,7 +82,6 @@ export default {
 
 .circle {
     padding: 2px;
-    border-radius: 9999px;
     display: flex;
     align-items: center;
     justify-content: center;

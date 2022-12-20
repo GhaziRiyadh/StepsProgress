@@ -17,7 +17,7 @@ npm i steps-progress
 ```html
 <template>
   <div class='container'>
-      <StepsProgress :current="count" height="30px" :end="5" backgroundColor="#42b883">
+      <StepsProgress circleRadius="9999px" :current="count" height="30px" :end="5" backgroundColor="#42b883">
           <!-- use this for selected element -->
         <template #selected>
           <span>S</span>
@@ -67,6 +67,9 @@ export default{
 
  ```height:String```
 > Use for circle height. most have value and unit like ```'20px'```
+
+ ```circleRadius:String```
+> Use for circle radius default value is ```'9999px'```. most have value and unit like ```'9999px'```
 
 ## Example
 
