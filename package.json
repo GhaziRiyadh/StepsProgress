@@ -1,10 +1,17 @@
 {
   "name": "steps-progress",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "This package is steps track in vuejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GhaziRiyadh/StepsProgress"
+  },
+  "bugs": {
+    "url": "https://github.com/GhaziRiyadh/StepsProgress/issues"
   },
   "keywords": [
     "steps",
@@ -19,6 +26,6 @@
     "steps progress vuejs",
     "steps progress vue"
   ],
-  "author": "GhaziRiyadh",
+  "author": "Ghazi Riyadh",
   "license": "ISC"
 }

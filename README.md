@@ -71,6 +71,16 @@ export default{
  ```circleRadius:String```
 > Use for circle radius default value is ```'9999px'```. most have value and unit like ```'9999px'```
 
+## Github
+
+### Source Code
+
+> [github.com](https://github.com/GhaziRiyadh/StepsProgress)
+
+### Issues
+
+> [github.com](https://github.com/GhaziRiyadh/StepsProgress/issues)
+
 ## Example
 
 <!-- gif-->
